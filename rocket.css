@@ -134,7 +134,7 @@ button:focus{
   font-family: 'Quicksand';
 }
 #landing2{
-  height:50vh;
+  height:auto;
   background:white;
 }
 .landing-body2{
