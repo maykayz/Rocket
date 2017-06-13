@@ -347,13 +347,13 @@ button:focus{
 }
 .landing5-logoPart{
   float:left;
-  width:10%;
+  width:20%;
   height:150px;
 }
 .landing5-contentPart{
   float:left;
-  width:90%;
-  height:150px;
+  width:80%;
+  min-height:150px;
   padding:0 20px;
 }
 .landing5-header{
@@ -384,7 +384,7 @@ button:focus{
 .landing5-process-paragraph{
   /*margin:10px auto;*/
   font-size:14px;
-  text-align:left;
+  text-align:justify;
   font-family: 'Raleway', sans-serif;
   font-weight:200;
   color:#949497;
