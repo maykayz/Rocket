@@ -178,11 +178,11 @@ button:focus{
   margin-right:15%;
 }
 .logoBoxSmall{
+  width:100%;
   height:150px;
   float:left;
   text-align:center;
-  margin-left:auto;
-  margin-right:auto;
+  margin:10px auto;
 }
 .logoIcon{
   margin:10px auto;
