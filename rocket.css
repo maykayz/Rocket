@@ -322,7 +322,7 @@ button:focus{
 }
 
 #landing5{
-  height:100vh;
+  height:auto;
   background:#222222;
   text-align:center;
 }
