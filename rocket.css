@@ -347,12 +347,12 @@ button:focus{
 }
 .landing5-logoPart{
   float:left;
-  width:15%;
+  width:50px;
   height:150px;
 }
 .landing5-contentPart{
-  float:left;
-  width:85%;
+  display:flex;
+  width:auto;
   min-height:150px;
   padding:0 20px;
 }
