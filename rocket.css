@@ -435,12 +435,11 @@ button:focus{
   .landing-body {
     padding-top: 10vh;
 }
+}
 @media screen and (min-width:400px) and (max-width:767px){
   .col-xs-12{
     float:none !important;
-
     margin:0 auto !important;
-
     width:280px !important;
 }
 }
@@ -455,10 +454,3 @@ button:focus{
     width:100%;
   }
 }
-
-/*@media scree and (max-width:767px){
-  .col-xs-12{
-    float:none;
-    width:80%;
-  }
-}*/
