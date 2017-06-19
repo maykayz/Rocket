@@ -428,7 +428,7 @@ button:focus{
   #hamburgerButton{
     display:block;
     margin-left:90%;
-    position:fixed;
+    position:absolute;
   }
 }
 @media screen and (max-height:500px){
