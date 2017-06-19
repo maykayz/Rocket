@@ -357,7 +357,7 @@ button:focus{
   padding:0 20px;
 }
 .landing5-header{
-  height:50px;
+  min-height:50px;
 }
 .circleShape{
   width:50px;
@@ -447,10 +447,7 @@ button:focus{
   #landing5-leftPart{
     display:none;
   }
-  .landing5-sketchBackground{
-    display:none;
-  }
-  #landing5-rightPart{
-    width:100%;
-  }
+    #landing5-rightPart{
+      width:100%;
+    }
 }
