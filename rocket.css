@@ -8,11 +8,6 @@ body{
   background-size: cover;
   background-position: center;
 }
-/*.navbar-default{
-			background-color: transparent;
-
-		}*/
-
 .navbar{
   margin:0;
   padding:0;
@@ -50,22 +45,27 @@ body{
   color:#79ACC8;
 }
 .navbar-content{
-  width:50%;
-  margin-left:20%;
-  margin-right:10%;
+  width:100%;
+  margin-left:25%;
   font-family: 'Fira Sans', sans-serif;
-
 }
 .navbar-content a{
   color:white;
   text-decoration:none;
   font-size:14px;
   line-height:50px;
-  margin-left:5%;
+  margin-left:2em;
 }
 .navbar-content a:hover{
   border-bottom:2px solid white;
   padding-bottom:5px;
+}
+#hamburgerButton{
+  display:none;
+  width:100px;
+  line-height:50px;
+  color:white;
+  font-size:20px;
 }
 .landing-body{
   padding-top:30vh;
@@ -96,7 +96,7 @@ body{
   border-bottom: 1px solid rgba(255,255,255,1);
 }
 .scrollFooter{
-  width:20%;
+  min-width:20%;
   position:absolute;
   bottom:0;
   margin:0 40%;
@@ -398,3 +398,67 @@ button:focus{
   color:#D8D9DE;
   line-height:25px;
 }
+
+
+@media screen and (min-width:1024px){
+  .navbar-content{
+    margin-left:30%;
+  }
+}
+@media screen and (min-width:840px) and (max-width:1023px){
+  .navbar-content{
+    margin-left:20%;
+  }
+  .navbar-content a{
+    margin-left:1.5em;
+  }
+}
+@media screen and (min-width:650px) and (max-width:839px){
+  .navbar-content{
+    margin-left:10%;
+  }
+  .navbar-content a{
+    margin-left:1em;
+  }
+}
+@media screen and (max-width:649px){
+  .navbar-content{
+    display:none;
+  }
+  #hamburgerButton{
+    display:block;
+    margin-left:90%;
+    position:fixed;
+  }
+}
+@media screen and (max-height:500px){
+  .landing-body {
+    padding-top: 10vh;
+}
+@media screen and (min-width:400px) and (max-width:767px){
+  .col-xs-12{
+    float:none !important;
+
+    margin:0 auto !important;
+
+    width:280px !important;
+}
+}
+@media screen and (max-width:1199px){
+  #landing5-leftPart{
+    display:none;
+  }
+  .landing5-sketchBackground{
+    display:none;
+  }
+  #landing5-rightPart{
+    width:100%;
+  }
+}
+
+/*@media scree and (max-width:767px){
+  .col-xs-12{
+    float:none;
+    width:80%;
+  }
+}*/
