@@ -59,6 +59,8 @@ body{
 .navbar-content a:hover{
   border-bottom:2px solid white;
   padding-bottom:5px;
+  text-decoration:none;
+  color:white;
 }
 #hamburgerButton{
   display:none;
@@ -106,8 +108,8 @@ body{
     border:none;
     color:transparent;
     background-color: transparent;
-    min-width:48px;
-    min-height:48px;
+    min-width:25px;
+    min-height:25px;
 }
 button:focus{
   outline:0;
